@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.d("dhgkyuguiy", "onResponse: "+response);
                 Log.d("urgheriughieg", "onResponse: "+response.body());
+                Log.d("urgheriughieg", "onResponse: "+response.body());
 
                 LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this, RecyclerView.VERTICAL, false);
                 recycle.setLayoutManager(linearLayoutManager);
